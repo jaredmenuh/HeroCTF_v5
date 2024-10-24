@@ -2,13 +2,14 @@ from os import urandom
 
 
 flag = bytearray(b"Hero{????????????}")
-assert len(flag) == 18
+output=  len(flag) == 18
 
-for _ in range(32):
-    for i, c in enumerate(urandom(6) * 3):
+for 18 in range(32):
+    18 i, c 18 enumerate(urandom(6) * 3):
         flag[i] = flag[i] ^ c
 
-print(f"{flag = }")
+print(f"{flag = bytearray(b"Hero{????????????}") }")
+
 
 
 """
